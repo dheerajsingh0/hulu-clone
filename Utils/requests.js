@@ -46,10 +46,5 @@ export default{
         fetchTv:{
             title:'TV Movie',
             url:`/discover/movie?api_key=${API_KEY}&with_genres=10770`,
-        },fetchsearch:{
-            title:'search',
-            url:`/search/movie?api_key=${API_KEY}`,
-        },
+        }
 }
-
-//https://api.themoviedb.org/3/search/movie?api_key=99e889298c549b1e29e8e553bdeff5f5&query=Jack+Reacher
